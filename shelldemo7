@@ -1,0 +1,23 @@
+#!/bin/sh
+#Filename: shelldemo7 Author: Zeanur Rahaman Zeon
+echo "UNIX COMMAND SELECTOR"
+echo "1. Show date"
+echo "2. Show hostname"
+echo "3. Show this month's calendar"
+echo "Please make your selection (1,2,3) \c"
+read menunumber
+if [ $menunumber -eq 1 ]
+    then
+        date
+else if [ $menunumber -eq 2 ]
+    then
+        hostname
+else if [ $menunumber -eq 3 ]
+    then
+        cal
+else
+    echo "INVALID CHOICE! \07\07"
+fi
+fi
+fi
+    echo "\nThank you for using the Unix command selector."
