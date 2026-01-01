@@ -1,0 +1,10 @@
+#!/bin/sh
+#Filename: shelldemo1 Author: Zeanur Rahaman Zeon
+#Define variables
+name=Zeon
+car="Ford Escort"
+age=22
+#Display the contents of the variables
+echo "My name is $name"
+echo "I am $age years old and \c"
+echo "I drive a $car."
