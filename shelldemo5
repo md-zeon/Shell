@@ -1,0 +1,11 @@
+#!/bin/sh
+#Filename: shelldemo5 Author: Zeanur Rahaman Zeon
+clear
+echo "Would you like to see a joke (y/n)? \c"
+read reply
+if [ "$reply" = "y" ]
+then
+    echo "Question: How many surrealists does it take to change a light bulb?"
+    echo "Answer: Fish."
+fi
+echo "\n\nHave a nice day."
