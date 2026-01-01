@@ -1,0 +1,6 @@
+echo "Demonstration of looping using the for loop and a list of car names"
+for car in ford vauxhall rover toyota mazda subaru
+do
+    echo $car
+done
+echo "\nEnd of demonstration program."
