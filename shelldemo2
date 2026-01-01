@@ -1,0 +1,8 @@
+#!/bin/sh
+#Filename: shelldemo2 Author: Zeanur Rahaman Zeon
+#Define variables
+todaysdate=`date`
+myworkingdirectory=`pwd`
+#Display the contents of the variables
+echo "The date is $todaysdate"
+echo "My current working directory is $myworkingdirectory"
