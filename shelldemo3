@@ -1,0 +1,9 @@
+#!/bin/sh
+#Filename: shelldemo3 Author: Zeanur Rahaman Zeon
+echo "Please enter your first name: \c"
+read firstname
+echo "Please enter your surname: \c"
+read surname
+echo "Please enter your date of birth: (dd/mm/yyyy): \c"
+read dateofbirth
+echo "Welcome $firstname $surname, your date of birth is on record as $dateofbirth."
